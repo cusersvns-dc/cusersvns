@@ -1,25 +1,38 @@
 // Get all sections
-const sections = document.querySelectorAll("section");
+const homeSection = document.getElementById('home-section');
+const aboutSection = document.getElementById('about-section');
+const competencesSection = document.getElementById('competences-section');
+const contactSection = document.getElementById('contact-section');
 
 // Function to change the background color based on the section in view
-function changeBackgroundColorOnView(entries) {
-    entries.forEach((entry) => {
+function changeBackgroundColorOnView(entries, observer) {
+    entries.forEach(entry => {
         if (entry.isIntersecting) {
-            let bgColor = "#48494a"; // Default color
-            if (entry.target.id === "home-section") bgColor = "#48494a";
-            else if (entry.target.id === "about-section") bgColor = "#232324";
-            else if (entry.target.id === "competences-section") bgColor = "#232324";
-            else if (entry.target.id === "contact-section") bgColor = "#000000";
-
-            document.body.style.backgroundColor = bgColor;
+            // Check which section is in view and change the background color
+            if (entry.target === homeSection) {
+                document.body.style.backgroundColor = '#48494a'; // Home section background color
+            } else if (entry.target === aboutSection) {
+                document.body.style.backgroundColor = '#232324'; // About section background color
+            } else if (entry.target === competencesSection) {
+                document.body.style.backgroundColor = '#232324'; // Competences section background color
+            } else if (entry.target === contactSection) {
+                document.body.style.backgroundColor = '#000000'; // Contact section background color
+            }
         }
     });
 }
 
 // Create an IntersectionObserver to watch each section
 const observer = new IntersectionObserver(changeBackgroundColorOnView, {
-    threshold: 0.5, // Trigger when at least 50% of the section is visible
+    threshold: 0.5 // Trigger when at least 50% of the section is visible
 });
 
 // Observe each section
-sections.forEach((section) => observer.observe(section));
+observer.observe(homeSection);
+observer.observe(aboutSection);
+observer.observe(competencesSection);
+observer.observe(contactSection);
+
+document.addEventListener('DOMContentLoaded', () => {
+    
+});
