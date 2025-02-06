@@ -9,6 +9,7 @@ body {
     background-color: #424549; /* Set background color */
     font-family: 'Montserrat', sans-serif; /* Default font for the body */
     box-sizing: border-box; /* Ensure consistent box sizing */
+    transition: background-color 0.8s ease-in-out;
 }
 
 /* Home Section */
