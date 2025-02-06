@@ -10,13 +10,13 @@ function changeBackgroundColorOnView(entries, observer) {
         if (entry.isIntersecting) {
             // Check which section is in view and change the background color
             if (entry.target === homeSection) {
-                document.body.style.backgroundColor = '#424549'; // Home section background color
+                document.body.style.backgroundColor = '#48494a'; // Home section background color
             } else if (entry.target === aboutSection) {
-                document.body.style.backgroundColor = '#36393e'; // About section background color
+                document.body.style.backgroundColor = '#232324'; // About section background color
             } else if (entry.target === competencesSection) {
-                document.body.style.backgroundColor = '#282b30'; // Competences section background color
+                document.body.style.backgroundColor = '#232324'; // Competences section background color
             } else if (entry.target === contactSection) {
-                document.body.style.backgroundColor = '#1e2124'; // Contact section background color
+                document.body.style.backgroundColor = '#000000'; // Contact section background color
             }
         }
     });
