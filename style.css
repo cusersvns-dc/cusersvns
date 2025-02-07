@@ -116,7 +116,7 @@ body {
     border: 1px solid #333; /* Add a light border */
     padding: 20px; /* Add padding inside the section */
     width: 90%; /* Use percentage width for responsiveness */
-    min-height: 80vh;
+    min-height: 120vh;
     max-width: 1300px; /* Limit the maximum width */
     background-color: #f3f3f3; /* Set background color */
     border-radius: 20px; /* Add rounded corners */
