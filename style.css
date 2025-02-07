@@ -112,6 +112,18 @@ body {
     margin-bottom: 30px; /* Add space below the section */
 }
 
+.pontocup-section{
+    border: 1px solid #333;
+    padding: 20vh;
+    width: 90%;
+    min-height: 80vh;
+    max-width: 1300px;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    margin-top: 20vh;
+    margin-bottom: 30vh;
+}
+
 /* Typography */
 h1 {
     margin: 0; /* Remove default margin */
