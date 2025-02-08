@@ -174,7 +174,7 @@ span{
     position: relative;
 }
 .typing-text span::before{
-    content: "software Developer";
+    content: "";
     color: #b74b4b;
     animation: words 20s infinite;
 }
@@ -188,7 +188,6 @@ span{
     right: -8;
     animation: cursor 0.6s infinite;
 }
-
 
 @media (max-width: 1000px){
     .home{
@@ -209,5 +208,11 @@ span{
     .home-img img{
         width: 70vw;
         margin-top: 4rem;
+    }
+}
+
+@keyframes cursorBlink {
+    50% {
+        opacity: 0;
     }
 }
