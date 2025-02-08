@@ -1,1 +1,21 @@
-/* */
+.home-section{
+    align-self: center;
+    width: 90%;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.home-section p{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+p {
+    color: #fff724;
+}
