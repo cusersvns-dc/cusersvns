@@ -32,6 +32,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    border-radius: 20px;
     background-image: url('initialdTofuShop.jpg');
     background-size: cover;
     background-position: center;
@@ -79,22 +80,28 @@ h1 {
     font-size: 1.5rem;
 }
 
-/* Sections */
+/* About Section */
 .about-section,
 .contacts-section,
 .competences-section,
 .pontocup-section {
-    min-height: 80vh; /* Specific to all but pontocup */
+    border: 1px solid #333;
+    padding: 20px;
+    width: 90%;
+    max-width: 1300px;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 20px 0; /* Combined margin for top and bottom */
+}
+
+/* Specific Section Adjustments */
+.about-section,
+.contacts-section,
+.competences-section {
+    min-height: 80vh; /* Default for most sections */
 }
 
 .pontocup-section {
     min-height: 120vh; /* Specific to pontocup */
-}
-
-/* Apply common styles to all sections */
-.about-section,
-.contacts-section,
-.competences-section,
-.pontocup-section {
-   /* @extend .section; /* Use the common section styles */
 }
