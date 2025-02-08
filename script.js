@@ -36,3 +36,14 @@ observer.observe(contactSection);
 document.addEventListener('DOMContentLoaded', () => {
     
 });
+
+const options = {
+    strings: ["Designer", "Developer", "Freelancer", "Photographer"],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true,
+    showCursor: true,
+    cursorChar: '|',
+  };
+  
+  const typed = new Typed('.typed', options);
