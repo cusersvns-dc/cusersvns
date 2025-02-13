@@ -13,3 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
         nav.classList.toggle("active"); // This will show/hide the menu
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const userId = "1169698310332895446"; // Your Discord User ID
+    const avatarUrl = `https://cdn.discordapp.com/avatars/${userId}/avatar.png?size=512`;
+
+    document.getElementById("discord-pfp").src = avatarUrl;
+});
