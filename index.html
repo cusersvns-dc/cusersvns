@@ -1,35 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="cusersvnsLogo.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>cusersvns</title>
+    <title>VNS UI Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="VNS.ico">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <section class="home">
-        <div class="home-img">
-            <img id="discord-pfp" src="myprofilepicture.png" alt="Discord Profile Picture">
+    <header class="main-header sticky-header">
+        <div class="header-content">
+            <div class="site-logo">
+                <a href="index.html">
+                    <img src="VNS.ico" alt="VNS Logo" height="40" />
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="https://discord.com/users/1169698310332895446" target="_blank" rel="noopener">Contact</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="#Pricing">Pricing</a></li>
+                    <li><a href="#TOS">Terms</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="home-content">
-            <h1>Hi, It's <span>vns</span></h1>
-            <h3 class="typing-text">I'm a <span></span></h3>
-            <p>Beginner UI designer, DM to hire.</p>
-            <div class="social-icons">
-                <a href="https://discordapp.com/users/1169698310332895446"><i class="fa-brands fa-discord"></i></a>
-                <a href="https://www.instagram.com/cusersvns/"><i class="fa-brands fa-instagram"></i></a>
+    </header>
+    <main class="hero-section">
+        <div class="hero-content" style="text-align:center;display:flex;flex-direction:column;align-items:center;">
+            <h1 class="hero-title" style="text-align:center;">VNS</h1>
+            <h2 class="hero-subtitle" style="text-align:center;">Interface Designer</h2>
+            <div class="hero-buttons">
+                <a href="https://discord.com/users/1169698310332895446" target="_blank" rel="noopener" class="hero-btn hero-btn-white">Contact</a>
+                <a href="Portfolio.html" class="hero-btn hero-btn-black">Portfolio</a>
+            </div>
+        </div>
+    </main>
+
+    <section class="pricing-section" id="Pricing">
+        <div class="pricing-card">
+            <div class="pricing-header">
+                <h3 class="pricing-title">UI Frame Design</h3>
+                <span class="pricing-type">Per Frame</span>
+            </div>
+            <div class="pricing-main">
+                <span class="pricing-amount">$30+</span>
+                <span class="pricing-slash"> / </span>
+                <span class="pricing-alt">R$10000+</span>
+            </div>
+            <ul class="pricing-features">
+                <li><span class="checkmark"><img src="Checkmark.ico" alt="Check" width="18" height="18"></span> Custom UI Design</li>
+                <li><span class="checkmark"><img src="Checkmark.ico" alt="Check" width="18" height="18"></span> Import Support</li>
+                <li><span class="checkmark"><img src="Checkmark.ico" alt="Check" width="18" height="18"></span> 3 Revisions</li>
+                <li><span class="checkmark"><img src="Checkmark.ico" alt="Check" width="18" height="18"></span> Fast Delivery</li>
+            </ul>
+            <a href="https://discord.com/users/1169698310332895446" target="_blank" rel="noopener" class="hero-btn hero-btn-black pricing-hire">Hire Me</a>
+        </div>
+    </section>
+    <section class="testimonials-section">
+        <h2 class="testimonials-title">Client Testimonials</h2>
+        <p class="testimonials-subtitle">What clients say about my work</p>
+        <div class="testimonials-carousel">
+            <div class="testimonials-track">
+                <div class="testimonial">
+                    <img class="testimonial-avatar" src="PlaceHolder.png" alt="alt 1" width="48" height="48">
+                    <div class="testimonial-content">
+                        <span class="testimonial-author">NA</span>
+                        <span class="testimonial-comment">NA</span>
+                        <div class="testimonial-stars">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img class="testimonial-avatar" src="clients/Anse.png" alt="alt 2" width="48" height="48">
+                    <div class="testimonial-content">
+                        <span class="testimonial-author">Anse | Dev
+                        </span>
+                        <span class="testimonial-comment">"5/5 Quick, High knowledge of what people prefer, cool initiatives"</span>
+                        <div class="testimonial-stars">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img class="testimonial-avatar" src="PlaceHolder.png" alt="alt 3" width="48" height="48">
+                    <div class="testimonial-content">
+                        <span class="testimonial-author">NA</span>
+                        <span class="testimonial-comment">NA</span>
+                        <div class="testimonial-stars">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                            <img src="Star.png" alt="Star" width="20" height="20">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <section class="tos-section" id="TOS">
+        <p class="tos-intro">Before contacting, please read:</p>
+        <h2 class="tos-title">Terms of Service</h2>
+        <div class="tos-content">
+            <p class="tos-updated">Last Updated: 06/08/2025</p>
+            <p>By commissioning me for UI design work, you agree to the following terms:</p>
+            <ol>
+                <li><strong>Payment</strong><br>
+                    <ul>
+                        <li>I only accept payments through PayPal or Robux.</li>
+                        <li>Payment is typically partially upfront, or as agreed before starting the project.</li>
+                        <li>Prices may change based on complexity and scope.</li>
+                    </ul>
+                </li>
+                <li><strong>Deadlines</strong><br>
+                    <ul>
+                        <li>No strict deadlines. I work at my own pace for quality.</li>
+                    </ul>
+                </li>
+                <li><strong>Importing UI</strong><br>
+                    <ul>
+                        <li>If I encounter issues importing, I will notify you.</li>
+                        <li>Reduced charge may apply depending on work completed.</li>
+                    </ul>
+                </li>
+                <li><strong>Revisions</strong><br>
+                    <ul>
+                        <li>Reasonable revisions allowed (small changes, corrections).</li>
+                        <li>Major redesigns are a new commission.</li>
+                    </ul>
+                </li>
+                <li><strong>Usage</strong><br>
+                    <ul>
+                        <li>You may use the commissioned UI in your project(s), but do not resell, redistribute, or claim the designs as your own.</li>
+                    </ul>
+                </li>
+                <li><strong>Refunds</strong><br>
+                    <ul>
+                        <li>Refunds only before significant work has begun.</li>
+                        <li>No refunds after major progress or full delivery.</li>
+                    </ul>
+                </li>
+            </ol>
         </div>
     </section>
-
-    
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
-
+    <section class="reachout-section">
+        <h2 class="reachout-title">Connect</h2>
+        <ul class="reachout-list">
+            <li class="reachout-item"><a href="https://discord.com/users/1169698310332895446" target="_blank" rel="noopener" class="reachout-link">Discord</a></li>
+            <li class="reachout-item"><a href="https://x.com/cusersvns" target="_blank" rel="noopener" class="reachout-link">Twitter</a></li>
+        </ul>
+    </section>
+    <script src="Script.js"></script>
+    <script src="testimonials.js"></script>
 </body>
 </html>
