@@ -422,13 +422,33 @@ body, html {
 .logo {
   margin-right: auto;
 }
+
+.header-location {
+  margin-left: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.header-location a:hover {
+  font-weight: 700 !important;
+}
+
 .sticky-header nav {
   margin-left: auto;
 }
+
 .logo img {
   display: block;
   height: 40px;
 }
+
+.site-logo img:hover {
+  display: block;
+  height: 42px;
+  transition: height 0.2s;
+}
+
 .sticky-header nav {
   display: flex;
   align-items: center;
