@@ -443,12 +443,6 @@ body, html {
   height: 40px;
 }
 
-.site-logo img:hover {
-  display: block;
-  height: 42px;
-  transition: height 0.2s;
-}
-
 .sticky-header nav {
   display: flex;
   align-items: center;
