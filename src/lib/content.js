@@ -1,13 +1,18 @@
-// ─────────────────────────────────────────────
-//  SITE CONTENT — edit everything here freely
-// ─────────────────────────────────────────────
+// ─────────────────────────────────────────────────────────────────────────────
+//  SITE CONTENT — edit everything in this file to update your site
+//
+//  HOW TO CHANGE IMAGES:
+//  1. Put your image/gif files in the `public/images/` folder in your repo
+//  2. Reference them here as '/images/your-file.png'
+//  3. Supports: .jpg .png .gif .webp .mp4 .webm
+// ─────────────────────────────────────────────────────────────────────────────
 
-// ── HERO ─────────────────────────────────────
-// Change backgroundImage to any URL (gif, jpg, png, mp4 not supported here — use img)
+// ── HERO ─────────────────────────────────────────────────────────────────────
+// backgroundImage: the big gif/image behind the hero text
+// → replace /images/hero-bg.gif with your own file in public/images/
 export const heroContent = {
-  backgroundImage: 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/2c1805c5a_Discord.gif',
+  backgroundImage: '/images/hero-bg.gif',
   eyebrow: 'VNS — UI/UX Designer for Roblox Experiences',
-  // Each line renders on its own <br />, edit freely
   headlineLines: [
     'Redefining pixels,',
     'pushing every frame,',
@@ -17,72 +22,84 @@ export const heroContent = {
     'the screen.',
   ],
   subtext: 'Premium UI/UX interfaces engineered frame by frame for immersive Roblox experiences.',
-  ctaPrimary: { label: 'View Work', href: '#recent-designs' },
-  ctaSecondary: { label: 'Pricing', href: '#pricing' },
+  ctaPrimary:   { label: 'View Work', href: '#recent-designs' },
+  ctaSecondary: { label: 'Pricing',   href: '#pricing' },
 };
 
-// ── PROJECTS ─────────────────────────────────
-// image    → card thumbnail shown on home + projects page
-// media[]  → gallery shown inside the project detail page
-//            Each slot is independent — replace any URL without affecting the others.
-//            Supports: .jpg .png .gif .mp4 .webm + YouTube/Vimeo full URLs
+// ── NAVBAR LOGO ───────────────────────────────────────────────────────────────
+// → replace /images/navbar-logo.png with your own file in public/images/
+export const navbarLogo = '/images/navbar-logo.png';
+
+// ── CONTACT CTA IMAGE ─────────────────────────────────────────────────────────
+// The image shown in the "Get in Touch" / contact section
+// → replace /images/contact-cta.png with your own file in public/images/
+export const contactCtaImage = '/images/contact-cta.png';
+
+// ── PROJECTS ──────────────────────────────────────────────────────────────────
+// image    → card thumbnail on home + projects page
+// media[]  → gallery inside the project detail page (lightbox)
+//            Add or remove slots freely — just add more URLs to the array
+//            Supports: .jpg .png .gif .webp .mp4 .webm
+//
+// To add a new project: copy one block, change the id, title, category, and images
+// To remove a project: delete the whole { } block
 export const projects = [
   {
     id: 'neon-arena',
     title: 'Neon Arena',
     category: 'Game UI System',
-    image: 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/5962a4130_generated_d0e381d8.png',
+    image: '/images/projects/neon-arena/thumb.png',
     media: [
-      /* slot 0 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/5962a4130_generated_d0e381d8.png',
-      /* slot 1 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/d0944cfab_generated_584bb4cb.png',
-      /* slot 2 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/e96ed505a_generated_7e323519.png',
+      '/images/projects/neon-arena/1.png',
+      '/images/projects/neon-arena/2.png',
+      '/images/projects/neon-arena/3.png',
     ],
   },
   {
     id: 'void-runner',
     title: 'Void Runner',
     category: 'Lobby & Menu',
-    image: 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/d0944cfab_generated_584bb4cb.png',
+    image: '/images/projects/void-runner/thumb.png',
     media: [
-      /* slot 0 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/d0944cfab_generated_584bb4cb.png',
-      /* slot 1 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/f8d59d5db_generated_18eb0a28.png',
-      /* slot 2 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/5962a4130_generated_d0e381d8.png',
+      '/images/projects/void-runner/1.png',
+      '/images/projects/void-runner/2.png',
+      '/images/projects/void-runner/3.png',
     ],
   },
   {
     id: 'cyber-market',
     title: 'Cyber Market',
     category: 'Shop Interface',
-    image: 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/e96ed505a_generated_7e323519.png',
+    image: '/images/projects/cyber-market/thumb.png',
     media: [
-      /* slot 0 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/e96ed505a_generated_7e323519.png',
-      /* slot 1 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/5962a4130_generated_d0e381d8.png',
-      /* slot 2 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/f8d59d5db_generated_18eb0a28.png',
+      '/images/projects/cyber-market/1.png',
+      '/images/projects/cyber-market/2.png',
+      '/images/projects/cyber-market/3.png',
     ],
   },
   {
     id: 'shadow-ops',
     title: 'Shadow Ops',
     category: 'HUD & Combat UI',
-    image: 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/f8d59d5db_generated_18eb0a28.png',
+    image: '/images/projects/shadow-ops/thumb.png',
     media: [
-      /* slot 0 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/f8d59d5db_generated_18eb0a28.png',
-      /* slot 1 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/d0944cfab_generated_584bb4cb.png',
-      /* slot 2 */ 'https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/e96ed505a_generated_7e323519.png',
+      '/images/projects/shadow-ops/1.png',
+      '/images/projects/shadow-ops/2.png',
+      '/images/projects/shadow-ops/3.png',
     ],
   },
 ];
 
-// ── FOOTER ───────────────────────────────────
+// ── FOOTER ────────────────────────────────────────────────────────────────────
 export const footerContent = {
-  brand: 'VNS',
-  tagline: 'Crafting premium UI/UX experiences for Roblox games. Every frame engineered with precision.',
-  discord: { label: 'cusersvns', url: 'https://discord.com/users/cusersvns' },
-  twitter: { label: '@cusersvns', url: 'https://twitter.com/cusersvns' },
+  brand:    'VNS',
+  tagline:  'Crafting premium UI/UX experiences for Roblox games. Every frame engineered with precision.',
+  discord:  { label: 'cusersvns',  url: 'https://discord.com/users/cusersvns' },
+  twitter:  { label: '@cusersvns', url: 'https://twitter.com/cusersvns' },
   copyright: 'VNS',
 };
 
-// ── TERMS OF SERVICE ─────────────────────────
+// ── TERMS OF SERVICE ──────────────────────────────────────────────────────────
 export const termsIntro =
   'These Terms of Service apply to all design work commissioned from me. By hiring me, you agree to the terms outlined below.';
 
@@ -145,7 +162,7 @@ export const termsSections = [
       'After full payment, clients may use the final UI design for their Roblox project.',
       'I retain the right to showcase completed work in my portfolio.',
       'I retain ownership of drafts, unused concepts, and working files unless otherwise agreed.',
-      'Designs may not be resold, redistributed, or claimed as the client\'s own work.',
+      "Designs may not be resold, redistributed, or claimed as the client's own work.",
     ],
   },
   {

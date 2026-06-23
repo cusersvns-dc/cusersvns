@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import { navbarLogo } from '@/lib/content';
 
 const navLinks = [
 { label: 'Home', href: '/' },
@@ -161,7 +162,7 @@ export default function Navbar() {
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
             className="hidden lg:block w-[380px] border-l border-dataline relative overflow-hidden">
             
-              <img src="https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/f946bc2be_Banner__2_.png"
+              <img src="{navbarLogo}"
 
             alt="VNS work"
             className="w-full h-full object-cover grayscale opacity-50" />

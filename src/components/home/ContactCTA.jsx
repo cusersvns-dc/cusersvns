@@ -2,13 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
+import { contactCtaImage } from '@/lib/content';
 
 export default function ContactCTA() {
   return (
     <section className="py-24 px-6 border-t border-dataline relative overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://media.base44.com/images/public/6a250cdd578d119f9a2c4475/01c2f8812_generated_3a827039.png"
+          src="{contactCtaImage}"
           alt="Section background"
           className="w-full h-full object-cover opacity-20"
         />
