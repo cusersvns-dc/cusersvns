@@ -1,45 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VNS Portfolio</title>
-
-  <!-- Website Logo (Favicon) -->
-  <link rel="icon" type="image/png" href="VnsLogoV3-black.png" />
-
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
-  <!-- Video Background -->
-  <div class="video-wrapper">
-    <video autoplay muted loop playsinline id="myVideo">
-      <source src="background.mp4" type="video/mp4">
-    </video>
-    <div class="overlay"></div>
-  </div>
-
-  <!-- Center Card -->
-  <div class="card">
-    
-    <div class="logo-container">
-      <img src="VnsLogoV3-black.png" alt="VNS Logo">
-    </div>
-
-    <p class="description">
-      I'm VNS, a dedicated UI/UX Designer & Roblox Developer. I specialize in
-      creative design with seamless technical execution to craft exceptional
-      digital experiences.
-    </p>
-
-    <div class="buttons">
-      <a href="https://uivns.framer.website" class="btn">Portfolio</a>
-      <a href="https://uivns.framer.website/terms-of-service" class="btn">Terms</a>
-      <a href="https://x.com/cusersvns" class="btn">Twitter</a>
-    </div>
-
-  </div>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C:\users\vns</title>
+    <script>
+      const full = 'C:\\users\\vns';
+      let i = 0;
+      function type() {
+        if (i <= full.length) {
+          document.title = full.slice(0, i) + (i < full.length ? '_' : '');
+          i++;
+          setTimeout(type, 100);
+        }
+      }
+      type();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
