@@ -45,12 +45,12 @@ export const contactCtaImage = 'https://cusersvns.com/images/contact-cta.png';
 // To remove a project: delete the whole { } block
 export const projects = [
   {
-    id: 'neon-arena',
+    id: 'fang',
     title: 'Fang',
     category: 'RPG UI',
     image: 'https://cusersvns.com/images/projects/fang/1.png',
     media: [
-      'https://cusersvns.com/images/projects/fang/Animation.mp4',
+      'https://cusersvns.com/images/projects/fang/AltroAnimation.mp4',
       'https://cusersvns.com/images/projects/fang/1.png',
       'https://cusersvns.com/images/projects/fang/2.png',
       'https://cusersvns.com/images/projects/fang/3.png',
@@ -58,7 +58,7 @@ export const projects = [
     ],
   },
   {
-    id: 'void-runner',
+    id: 'samurai-ui',
     title: 'Samurai UI',
     category: 'RPG UI',
     image: 'https://cusersvns.com/images/projects/samurai-ui/1.png',
@@ -71,12 +71,12 @@ export const projects = [
     ],
   },
   {
-    id: 'cyber-market',
+    id: 'golden-age',
     title: 'Golden Age',
     category: 'RPG UI',
     image: 'https://cusersvns.com/images/projects/golden-age/1.png',
     media: [
-      'https://cusersvns.com/images/projects/golden-age/AltroAnimation-1.mp4',
+      'https://cusersvns.com/images/projects/golden-age/Animation-1.mp4',
       'https://cusersvns.com/images/projects/golden-age/1.png',
       'https://cusersvns.com/images/projects/golden-age/2.png',
       'https://cusersvns.com/images/projects/golden-age/3.png',
