@@ -58,13 +58,14 @@ export const projects = [
   },
   {
     id: 'void-runner',
-    title: 'Void Runner',
-    category: 'Lobby & Menu',
-    image: '/images/projects/void-runner/thumb.png',
+    title: 'Samurai UI',
+    category: 'RPG UI',
+    image: 'https://cusersvns.com/images/projects/samurai-ui/1.png',
     media: [
-      '/images/projects/void-runner/1.png',
-      '/images/projects/void-runner/2.png',
-      '/images/projects/void-runner/3.png',
+      'https://cusersvns.com/images/projects/samurai-ui/1.png',
+      'https://cusersvns.com/images/projects/samurai-ui/2.png',
+      'https://cusersvns.com/images/projects/samurai-ui/3.png',
+      'https://cusersvns.com/images/projects/samurai-ui/4.png',
     ],
   },
   {
