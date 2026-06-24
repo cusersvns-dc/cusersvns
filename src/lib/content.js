@@ -201,3 +201,43 @@ export const termsSections = [
     ],
   },
 ];
+
+// ── TESTIMONIALS ─────────────────────────────────────────────────────────────
+export const testimonials = [
+  {
+    name: 'xR3aper',
+    avatar: 'https://api.dicebear.com/7.x/identicon/svg?seed=xR3aper',
+    rating: 5,
+    text: 'Absolutely insane quality. The UI transformed our game from amateur to professional overnight. Every frame was pixel-perfect.',
+  },
+  {
+    name: 'DarkVortex_Dev',
+    avatar: 'https://api.dicebear.com/7.x/identicon/svg?seed=DarkVortex',
+    rating: 5,
+    text: "Best Roblox UI designer I've worked with. Fast turnaround, clean assets, and the tweening maps saved us weeks of work.",
+  },
+  {
+    name: 'NovaBuildz',
+    avatar: 'https://api.dicebear.com/7.x/identicon/svg?seed=NovaBuildz',
+    rating: 4,
+    text: 'Premium work at fair prices. The design elevated our entire game aesthetic. Already planning our next project together.',
+  },
+  {
+    name: 'PixelForge',
+    avatar: 'https://api.dicebear.com/7.x/identicon/svg?seed=PixelForge',
+    rating: 5,
+    text: 'VNS delivered beyond expectations. The combat HUD they designed became the most praised feature of our game.',
+  },
+  {
+    name: 'StudioZero',
+    avatar: 'https://api.dicebear.com/7.x/identicon/svg?seed=StudioZero',
+    rating: 5,
+    text: 'Incredible attention to detail. They understood our vision perfectly and delivered a UI system that feels AAA quality.',
+  },
+  {
+    name: 'CryptoBuilds',
+    avatar: 'https://api.dicebear.com/7.x/identicon/svg?seed=CryptoBuilds',
+    rating: 5,
+    text: 'The shop UI doubled our conversion rate. Clean, minimal, premium. Exactly what we needed for launch.',
+  },
+];
