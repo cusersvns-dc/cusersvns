@@ -28,12 +28,12 @@ export const heroContent = {
 
 // ── NAVBAR LOGO ───────────────────────────────────────────────────────────────
 // → replace /images/navbar-logo.png with your own file in public/images/
-export const navbarLogo = '/images/VnsLogoV3-black.png';
+export const navbarLogo = 'https://cusersvns.com/images/VnsLogoV3-black.png';
 
 // ── CONTACT CTA IMAGE ─────────────────────────────────────────────────────────
 // The image shown in the "Get in Touch" / contact section
 // → replace /images/contact-cta.png with your own file in public/images/
-export const contactCtaImage = '/images/contact-cta.png';
+export const contactCtaImage = 'https://cusersvns.com/images/contact-cta.png';
 
 // ── PROJECTS ──────────────────────────────────────────────────────────────────
 // image    → card thumbnail on home + projects page
@@ -46,13 +46,14 @@ export const contactCtaImage = '/images/contact-cta.png';
 export const projects = [
   {
     id: 'neon-arena',
-    title: 'Neon Arena',
-    category: 'Game UI System',
-    image: '/images/projects/neon-arena/thumb.png',
+    title: 'Fang',
+    category: 'RPG UI',
+    image: 'https://cusersvns.com/images/projects/fang/1.png',
     media: [
-      '/images/projects/neon-arena/1.png',
-      '/images/projects/neon-arena/2.png',
-      '/images/projects/neon-arena/3.png',
+      'https://cusersvns.com/images/projects/fang/1.png',
+      'https://cusersvns.com/images/projects/fang/2.png',
+      'https://cusersvns.com/images/projects/fang/3.png',
+      'https://cusersvns.com/images/projects/fang/4.png',
     ],
   },
   {
