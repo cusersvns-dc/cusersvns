@@ -70,13 +70,13 @@ export const projects = [
   },
   {
     id: 'cyber-market',
-    title: 'Cyber Market',
-    category: 'Shop Interface',
-    image: '/images/projects/cyber-market/thumb.png',
+    title: 'Golden Age',
+    category: 'RPG UI',
+    image: 'https://cusersvns.com/images/projects/golden-age/1.png',
     media: [
-      '/images/projects/cyber-market/1.png',
-      '/images/projects/cyber-market/2.png',
-      '/images/projects/cyber-market/3.png',
+      'https://cusersvns.com/images/projects/golden-age/1.png',
+      'https://cusersvns.com/images/projects/golden-age/2.png',
+      'https://cusersvns.com/images/projects/golden-age/3.png',
     ],
   },
   {
