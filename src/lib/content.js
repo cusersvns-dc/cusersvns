@@ -11,7 +11,7 @@
 // backgroundImage: the big gif/image behind the hero text
 // → replace /images/hero-bg.gif with your own file in public/images/
 export const heroContent = {
-  backgroundImage: '/images/hero-bg.gif',
+  backgroundImage: 'https://cusersvns.com/images/Discord.gif',
   eyebrow: 'VNS — UI/UX Designer for Roblox Experiences',
   headlineLines: [
     'Redefining pixels,',
@@ -21,14 +21,14 @@ export const heroContent = {
     'in Roblox — on and off',
     'the screen.',
   ],
-  subtext: 'Premium UI/UX interfaces engineered frame by frame for immersive Roblox experiences.',
+  subtext: 'Preem UI/UX interfaces engineered frame by frame for immersive Roblox experiences.',
   ctaPrimary:   { label: 'View Work', href: '#recent-designs' },
   ctaSecondary: { label: 'Pricing',   href: '#pricing' },
 };
 
 // ── NAVBAR LOGO ───────────────────────────────────────────────────────────────
 // → replace /images/navbar-logo.png with your own file in public/images/
-export const navbarLogo = '/images/navbar-logo.png';
+export const navbarLogo = '/images/VnsLogoV3-black.png';
 
 // ── CONTACT CTA IMAGE ─────────────────────────────────────────────────────────
 // The image shown in the "Get in Touch" / contact section
