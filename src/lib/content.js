@@ -224,3 +224,42 @@ export const testimonials = [
     text: 'Quick, High knowledge of what people prefer, cool initiatives.',
   },
 ];
+
+// ── FAQ ───────────────────────────────────────────────────────────────────────
+// q → the question
+// a → the answer
+// To add: copy a block. To remove: delete a block.
+export const faqs = [
+  {
+    q: 'What does "per frame" pricing mean?',
+    a: 'Each frame is a single UI screen or view — such as a main menu, inventory screen, or settings panel. Complex multi-state interfaces may count as multiple frames depending on the scope.',
+  },
+  {
+    q: 'How do I start working with you?',
+    a: 'Simply reach out through my contact page, and we’ll discuss your project, goals, and timeline before getting started',
+  },
+  {
+    q: 'What design tools do you use?',
+    a: 'I primarily work with Figma and Krita to craft high-quality and fully functional designs.',
+  },
+  {
+    q: 'How long does a project take?',
+    a: 'Timelines vary based on project complexity, but most designs take 1–2 weeks, while full games take 2–4 weeks.',
+  },
+  {
+    q: 'Can I request revisions?',
+    a: "I offer two rounds of revisions to ensure the final design aligns perfectly with your vision. Additional revisions are available if needed.",
+  },
+  {
+    q: 'Can you redesign my existing game UI?',
+    a: 'Absolutely! I can update and enhance your existing game UI to improve its usability, and visual appeal.',
+  },
+  {
+    q: 'Do you animate your UI designs?',
+    a: 'I currently do not provide animation services, but I can design UI elements that are ready for animation by your development team.',
+  },
+  {
+    q: 'Do you provide vectors/icons?',
+    a: 'Most of the icons I use are sourced from open-source libraries. If you need custom icons, please hire a specialized icon designer, as I do not provide custom icon design services.',
+  },
+];

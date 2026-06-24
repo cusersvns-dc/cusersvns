@@ -1,33 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react';
-
-const faqs = [
-  {
-    q: 'What does "per frame" pricing mean?',
-    a: 'Each frame is a single UI screen or view — such as a main menu, inventory screen, or settings panel. Complex multi-state interfaces may count as multiple frames depending on the scope.',
-  },
-  {
-    q: 'Do you accept Robux as payment?',
-    a: 'Yes. All prices are available in both USD and Robux. Robux payments are processed through verified gamepass transactions. The current exchange rate is clearly displayed in the pricing section.',
-  },
-  {
-    q: 'What files do I receive?',
-    a: 'Depending on your plan, you receive high-resolution PNG exports, source files (Figma/Photoshop), tweening maps, and implementation-ready RBXL assets. Enterprise clients receive full vector source files.',
-  },
-  {
-    q: 'How long does a project take?',
-    a: 'Standard orders are delivered within 48 hours. Premium orders have a 24-hour priority turnaround. Enterprise projects include same-day rush availability for urgent deliverables.',
-  },
-  {
-    q: 'Can I request revisions?',
-    a: 'Absolutely. Standard includes 1 revision round, Premium includes 3 rounds, and Enterprise offers unlimited revisions until you\'re satisfied with the final result.',
-  },
-  {
-    q: 'Do you offer full game UI systems?',
-    a: 'Yes. The Enterprise tier is specifically designed for comprehensive UI system design — covering all screens, states, and interactive elements your game requires.',
-  },
-];
+import { faqs } from '@/lib/content';
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
