@@ -79,17 +79,6 @@ export const projects = [
       'https://cusersvns.com/images/projects/golden-age/3.png',
     ],
   },
-  {
-    id: 'shadow-ops',
-    title: 'Shadow Ops',
-    category: 'HUD & Combat UI',
-    image: '/images/projects/shadow-ops/thumb.png',
-    media: [
-      '/images/projects/shadow-ops/1.png',
-      '/images/projects/shadow-ops/2.png',
-      '/images/projects/shadow-ops/3.png',
-    ],
-  },
 ];
 
 // ── FOOTER ────────────────────────────────────────────────────────────────────
