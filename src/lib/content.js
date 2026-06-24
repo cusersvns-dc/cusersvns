@@ -76,7 +76,7 @@ export const projects = [
     category: 'RPG UI',
     image: 'https://cusersvns.com/images/projects/golden-age/1.png',
     media: [
-      'https://cusersvns.com/images/projects/golden-age/Animation-1.mp4',
+      'https://cusersvns.com/images/projects/golden-age/AltroAnimation-1.mp4',
       'https://cusersvns.com/images/projects/golden-age/1.png',
       'https://cusersvns.com/images/projects/golden-age/2.png',
       'https://cusersvns.com/images/projects/golden-age/3.png',
