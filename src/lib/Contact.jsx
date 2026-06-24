@@ -18,7 +18,7 @@ export default function Contact() {
           Reach out to me on Discord to discuss your project.
         </p>
         <a
-          href="https://discord.com/users/YOUR_DISCORD_ID"
+          href="https://discord.com/users/1169698310332895446"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-10 py-4 bg-white text-black text-xs tracking-[0.2em] uppercase font-mono hover:bg-accent transition-colors duration-300"
